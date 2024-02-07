@@ -118,7 +118,7 @@ int knapSack(int weights[], int values[], int selected_bool[])
    j=0;
    while(i<size&&j<w){
         if(K[size-1-i][w-j]<K[size-i][w-j]){
-            selected_bool[i]=1;
+            selected_bool[size-i-1]=1;
              i++;
              j+=weights[size-i];
         }
