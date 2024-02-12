@@ -7,3 +7,4 @@ int max(int a, int b);
 void fanc1(int arr[][10]);
 void fanc2(int arr[][10]);
 void fanc3(int arr[][10]);
+void algoritem(int arr[10][10]);
