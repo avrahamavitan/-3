@@ -4,7 +4,7 @@
 #define w (20)
 #define size (5)
 
-void algoritem(int arr[10][10])//אלגוריתם שמחשב את הדרך הקצרה בגרף 
+void algoritem(int arr[10][10]){//אלגוריתם שמחשב את הדרך הקצרה בגרף 
     for(int i=0;i<10;i++){
         for(int j=0;j<10;j++){
             if (arr[i][j]==0){arr[i][j]=9999999;}
